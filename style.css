@@ -3,7 +3,7 @@
 :root {
     
     --primary-color: #D7E9F7;
-    --bgcolor : #f0cdff;
+    --bgcolor : #cad9e5;
 }
 
 
@@ -11,6 +11,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--bgcolor);
     color: var(--dark-color);
+    margin: auto;
 }
 
 .container {
@@ -60,16 +61,12 @@ input {
 footer {
     width: 100%;
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
+    color: white;
     margin-top: 16rem;
+    background-color: black;
 }
 
-.footer .heading{
-    /* text-align: center; */
-    color: black;
-   padding: 5rem;
-    
-}
 .footer-list{
     display:inline;
     list-style: none;
@@ -80,7 +77,7 @@ footer {
 }
 .link{
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 
